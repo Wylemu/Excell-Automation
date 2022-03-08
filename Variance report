@@ -240,8 +240,8 @@ mailItem.Subject = 'Variance Report'+Tday_data
 mailItem.BodyFormat = 1
 mailItem.Body = 'Please see attached Your Variance report for '+Tday_data+ ' ,May you Please respond on All Variances Before 12PM today'
 mailItem.To = 'Stock Take 1'
-mailItem.CC = 'Thokozane.Ngwenya@mtn.com;vincent@onetouchmobility.co.za;blessing@onetouchmobility;Vincent.Nomtshongwane@mtn.com'
-mailItem._oleobj_.Invoke(*(64209, 0, 8, 0, olns.Accounts.Item('walter@onetouchmobility.co.za')))
+mailItem.CC = 'Thokozane;vincent@onet;blessing@hmobility;Vintshongwane@mtn.com'
+mailItem._oleobj_.Invoke(*(64209, 0, 8, 0, olns.Accounts.Item('walter@onehmobility.co.za')))
 mailItem.Display()
 mailItem.Attachments.Add(Atta_ment)
 mailItem.BodyFormat = 2
